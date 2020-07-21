@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+        
+    <!-- <link href='css/lightbox.min.css' rel='stylesheet'> -->
+
+    <link href='erinLightbox.css' rel='stylesheet'>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+        <img src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">Features</a>
+                <a class="nav-item nav-link" href="#">Pricing</a>
+                <a class="nav-item nav-link disabled" href="#">Disabled</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class='container-fluid m-3' style='block'>
+        <!-- first row with images -->
+        <div class='row m-3' id= 'firstRow'>
+
+                <img class = ' img img-responsive col-sm-6 col-lg-3 ' src='images/Indigo.jpg' >
+                <img class = 'img img-responsive col-sm-6 col-lg-3 'src='images/totoro.jpg'>
+                <img class = 'img img-responsive col-sm-6 col-lg-3 ' src='images/shoeBoi.jpg'>
+                <img class = 'img img-responsive col-sm-6 col-lg-3 'src='images/windowBoi.jpg'>
+ 
+        </div>
+        <div class='row'>
+            <div class='col-12 col-lg-4'>
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We 100% sell your info bc these bills ain't
+                            gonna pay themselves</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+            <div class='col-8'>
+                <div class='row'>
+                    <div class='col-12 col-lg-4'>
+                        <button id='generateRandomDoge' type="button" class="btn btn-primary btn-lg btn-block">
+                            Generate Random Deogie
+                        </button>
+                    </div>
+                    <div id='puptainer' class='col-12 col-lg-8'>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <script src='js/lightbox.js'></script> -->
+    <script src='script.js'></script>
+</body>
+
+</html>
